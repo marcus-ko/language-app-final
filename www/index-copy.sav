@@ -109,61 +109,22 @@
 
                         <div class="row">
                                 <div class="column">
-                                        <div class="card7">
-                                                <div class="card__face card__face--front">
-                                                        <img id="img-1g" src="images/letter--g.jpg" />
-                                                </div>
-                                                <div class="card__face card__face--back">
-                                                        <img id="img-2g" src="images/back-image/goose.svg" />
-                                                        <p class="text">Goose</p>
-                                                </div>
-                                            </div>
+
                                 </div>
 
                                 <div class="column">
-                                        <div class="card8">
-                                                <div class="card__face card__face--front">
-                                                        <img id="img-1h" src="images/letter--h.jpg" />
-                                                </div>
-                                                <div class="card__face card__face--back">
-                                                        <img id="img-2h" src="images/back-image/house.svg" />
-                                                        <p class="text">House</p>
-                                                </div>
-                                            </div>
+                                    
                                 </div>
 
                                 <div class="column">
-                                        <div class="card9">
-                                                <div class="card__face card__face--front">
-                                                        <img id="img-1i" src="images/letter--i.jpg" />
-                                                </div>
-                                                <div class="card__face card__face--back">
-                                                        <img id="img-2i" src="images/back-image/iguana.svg" />
-                                                        <p class="text">Iguana</p>
-                                                </div>
-                                            </div>
+                                    
                                 </div>
                         </div>
-
-
-                        <!-- <div class="row">
-                                <div class="column">
-
-                                </div>
-
-                                <div class="column">
-                                    
-                                </div>
-
-                                <div class="column">
-                                    
-                                </div>
-                        </div> -->
 
                     </section>
                 
             
-                    <!-- <section id="content-1"> -->
+                    <section id="content-1">
         
                         <!-- <div class="scene scene--card">
                             <div class="card">
@@ -201,7 +162,7 @@
                             </div>
                         </div> -->
         
-                        <!-- <div class="scene scene--card">
+                        <div class="scene scene--card">
                             <div class="card4">
                                 <div class="card__face card__face--front">
                                         <img id="img-1d" src="images/letter--d.jpg" />
@@ -235,9 +196,9 @@
                                         <p class="text">Firetruck</p>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
         
-                        <!-- <div class="scene scene--card">
+                        <div class="scene scene--card">
                             <div class="card7">
                                 <div class="card__face card__face--front">
                                         <img id="img-1g" src="images/letter--g.jpg" />
@@ -477,7 +438,7 @@
                             </div>
                         </div>
                     </section>
-                </section> -->
+                </section>
 
             <!-- Korean Alphabet -->
             <section id="korean-language">

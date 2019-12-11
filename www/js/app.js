@@ -68,6 +68,7 @@ $( document ).ready(function() {
 
     $("#img-2a").click(function() {
         obj2.play();
+        alert("clicked");
     });
     // AIRPLANE AUDIO END //
 

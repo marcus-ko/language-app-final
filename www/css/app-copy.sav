@@ -21,9 +21,6 @@ body {
     height: 0;
     padding-bottom: 25%;
 }
-.row {
-    padding-bottom: 2rem;
-}
 .row:after {
     content: "";
     display: table;
@@ -51,12 +48,10 @@ body {
     vertical-align: super;
     padding: 32px;
 } */
-svg {
-    width: 100px;
-}
+
 img {
     opacity: unset;
-    width: 50%;
+    width: 100%;
     height: auto;
     vertical-align: super;
     /* padding: 32px; */
@@ -65,19 +60,17 @@ img {
     /* position: absolute; */
     /* margin: 20px; */
     /* overflow: hidden; */
-    padding: 2rem;
-    z-index: 999;
 }
 
-/* #img-1 {
+#img-1 {
     width: 80px;
     height: 80px;
-} */
+}
 
-/* #img-2 {
+#img-2 {
     width: 100px;
     height: 100px;
-} */
+}
 
 #buttons {
     margin-left: 3rem;
@@ -477,7 +470,7 @@ img {
   #korean-language {
       display: none;
   }
-/* 
+
   .text {
     margin-top: -144px;
     color: black;
@@ -485,13 +478,5 @@ img {
     padding: 0;
     margin-bottom: 0;
     line-height: 3.5;
-  } */
-
-  .text {
-    margin-top: -174px;
-    color: black;
-    font-size: 3vw;
-    padding: 0;
-    margin-bottom: 0;
   }
 
