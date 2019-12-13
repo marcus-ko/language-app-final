@@ -23,6 +23,7 @@ $('.btn-group').on('click', '.btn', function() {
     $(this).addClass('active').removeClass('notactive').siblings().removeClass('active').addClass('notactive');
 });
 
+
 $( document ).ready(function() {
 
     // Toggle Language //s
@@ -68,7 +69,6 @@ $( document ).ready(function() {
 
     $("#img-2a").click(function() {
         obj2.play();
-        alert("clicked");
     });
     // AIRPLANE AUDIO END //
 
