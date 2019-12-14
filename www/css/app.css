@@ -4,7 +4,7 @@ body {
 
 #english-language,
 #korean-language {
-    margin-top: -90px;
+    /* margin-top: -90px; */
 }
 .flex-container {
     padding: 0;
