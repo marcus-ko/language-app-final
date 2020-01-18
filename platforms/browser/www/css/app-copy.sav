@@ -1,0 +1,482 @@
+body {
+    height: 100%;
+}
+#main {
+    /* max-width: 50%; */
+    /* border-radius: 25px; */
+    /* border: 1px solid black; */
+    border-top: 72px solid teal;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/* Table Styles */
+
+.column {
+    float: left;
+    width: 33%;
+    /* min-width: 200px; */
+    /* min-height: 50px; */
+    height: 0;
+    padding-bottom: 25%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title--banner {
+    position: absolute;
+    top: 25px;
+    font-size: 2rem;
+    color: #fff;
+    font-family: arial;
+}
+/* .scene {
+    width: 275px;
+    height: 275px;
+    margin: 10px;
+    perspective: 600px;
+    float: left;
+} */
+/* img {
+    opacity: unset;
+    width: 200px;
+    height: 200px;
+    vertical-align: super;
+    padding: 32px;
+} */
+
+img {
+    opacity: unset;
+    width: 100%;
+    height: auto;
+    vertical-align: super;
+    /* padding: 32px; */
+    border: 1px solid black;
+    border-radius: 8px;
+    /* position: absolute; */
+    /* margin: 20px; */
+    /* overflow: hidden; */
+}
+
+#img-1 {
+    width: 80px;
+    height: 80px;
+}
+
+#img-2 {
+    width: 100px;
+    height: 100px;
+}
+
+#buttons {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.reset-button {
+    width: 15%;
+    padding-bottom: 4%;
+    height: 0;
+    font-size: 2.6vw;
+    background-color: #13D307;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 6px;
+    position: relative;
+    cursor: pointer;
+    transform: scale(1.5);
+    display: inline-block;
+}
+
+.korean-button {
+    width: 15%;
+    height: 0;
+    font-size: 2.6vw;
+    padding-bottom: 4%;
+    background-color: #E30C12;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 6px;
+    margin-left: 6rem;
+    position: relative;
+    cursor: pointer;
+    transform: scale(1.5);
+    display: inline-block;
+}
+
+.english-button {
+    width: 15%;
+    height: 0;
+    font-size: 2.6vw;
+    padding-bottom: 4%;
+    background-color: #0096F7;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 6px;
+    margin-left: 6rem;
+    position: relative;
+    cursor: pointer;
+    transform: scale(1.5);
+    display: inline-block;
+}
+
+/* .notactive {
+    background-color: #cccccc;
+} */
+
+
+/* Korean Letters animation Start */
+.card1kr,
+.card2kr,
+.card3kr,
+.card4kr,
+.card5kr,
+.card6kr,
+.card7kr,
+.card8kr,
+.card9kr,
+.card10kr,
+.card11kr,
+.card12kr,
+.card13kr,
+.card14kr,
+.card15kr,
+.card16kr,
+.card17kr,
+.card18kr,
+.card19kr,
+.card20kr,
+.card21kr,
+.card22kr,
+.card23kr,
+.card24kr,
+.card25kr,
+.card26kr {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+
+.card1kr.is-flipped,
+.card2kr.is-flipped,
+.card3kr.is-flipped,
+.card4kr.is-flipped,
+.card5kr.is-flipped,
+.card6kr.is-flipped,
+.card7kr.is-flipped,
+.card8kr.is-flipped,
+.card9kr.is-flipped,
+.card10kr.is-flipped,
+.card11kr.is-flipped,
+.card12kr.is-flipped,
+.card13kr.is-flipped,
+.card14kr.is-flipped,
+.card15kr.is-flipped,
+.card16kr.is-flipped,
+.card17kr.is-flipped,
+.card18kr.is-flipped,
+.card19kr.is-flipped,
+.card20kr.is-flipped,
+.card21kr.is-flipped,
+.card22kr.is-flipped,
+.card23kr.is-flipped,
+.card24kr.is-flipped,
+.card25kr.is-flipped,
+.card26kr.is-flipped {
+    transform: rotateY(180deg);
+}
+
+
+.card,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9,
+.card10,
+.card11,
+.card12,
+.card13,
+.card14,
+.card15,
+.card16,
+.card17,
+.card18,
+.card19,
+.card20,
+.card21,
+.card22,
+.card23,
+.card24,
+.card25,
+.card26 {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+
+.card.is-flipped,
+.card2.is-flipped,
+.card3.is-flipped,
+.card4.is-flipped,
+.card5.is-flipped,
+.card6.is-flipped,
+.card7.is-flipped,
+.card8.is-flipped,
+.card9.is-flipped,
+.card10.is-flipped,
+.card11.is-flipped,
+.card12.is-flipped,
+.card13.is-flipped,
+.card14.is-flipped,
+.card15.is-flipped,
+.card16.is-flipped,
+.card17.is-flipped,
+.card18.is-flipped,
+.card19.is-flipped,
+.card20.is-flipped,
+.card21.is-flipped,
+.card22.is-flipped,
+.card23.is-flipped,
+.card24.is-flipped,
+.card25.is-flipped,
+.card26.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 154px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    backface-visibility: hidden;
+  }
+.card__face--front {
+    /* background: #edeeee; */
+    /* border: 1px solid black;
+    border-radius: 10px; */
+}
+.card__face--back {
+    /* background: #eee; */
+    /* border: 1px solid black;
+    border-radius: 10px; */
+    transform: rotateY(180deg);
+}
+.card__face.card__face--back img#img-2 {
+    width: 81px;
+}
+.card21.is-flipped .card__face.card__face--back img#img-2 {
+    height: 81px;
+}
+#content-1 {
+    padding: 20px;
+    /* border: 1px solid black; */
+    width: 96%;
+    height: 1000px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+}
+
+#content-2 {
+    padding: 20px;
+    /* border: 1px solid black; */
+    width: 96%;
+    height: 1000px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+}
+
+/* #content-3 {
+    padding: 20px;
+    border: 1px solid black;
+    width: 96%;
+    height: 257px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+} */
+
+/* Imaginary border */
+#left--side {
+    border: 2px solid red;
+    width: 48%;
+    height: 100%;
+    float: right;
+}
+#right--side {
+    border: 2px solid orange;
+    width: 48%;
+    height: 100%;
+}
+/* Imaginary border */
+
+.left--side-buttons {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.right--side-buttons {
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.button {
+    background-color: #fff;
+    border: 2px solid green;
+    border-radius: 10px;
+    color: #000;
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* background: url("images/smiley.svg") no-repeat; */
+}
+
+/* .smiley--toggle {
+    display: block;
+} */
+
+/* #button-a {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    float: left;
+    margin: 10px;
+} */
+
+
+
+/* .toggle {
+    display: none;
+} */
+
+/* .top-header {
+    height: 100px;
+    background-color: blue;
+} */
+
+/* Toggle Switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 34px;
+    transform: scale(1.5);
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196F3;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    /* box-shadow: 0 0 1px #2196F3; */
+    background-color: #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(43px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #kr {
+      display: none;
+      margin-left: 25px;
+  }
+
+  #en {
+      display: inline;
+  }
+
+  #korean-language {
+      display: none;
+  }
+
+  .text {
+    margin-top: -144px;
+    color: black;
+    font-size: 32px;
+    padding: 0;
+    margin-bottom: 0;
+    line-height: 3.5;
+  }
+
