@@ -112,8 +112,9 @@ img {
     vertical-align: none;
    width: 80%;
    height: 80%;
-   border: 14px solid white;
-   border-bottom: 26px solid white;
+   border: none;
+   /* border-bottom: 26px solid white; */
+   margin-top: 32px;
 }
 
 
@@ -541,10 +542,11 @@ img {
   } */
 
   .text {
-    margin-top: -150px;
+    /* margin-top: -150px;
     color: black;
     font-size: 3vw;
     padding: 0;
-    margin-bottom: 0;
+    margin-bottom: 0; */
+    display: none;
   }
 
