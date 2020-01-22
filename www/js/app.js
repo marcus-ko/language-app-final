@@ -1,16 +1,11 @@
 var krview = document.getElementById("korean-language");
 var enview = document.getElementById("english-language");
 
-function onDeviceReady() {
-    document.removeEventListener('deviceready', onDeviceReady, false);
 
-    // Set AdMobAds options:
-    admob.setOptions({
-        publisherId:          "ca-app-pub-0414581196544248~8128177355"  // Required
-    });
-}
-document.addEventListener("deviceready", onDeviceReady, false);
-admob.createBannerView();
+
+// admob.createBannerView({
+//     autoShowBanner: true
+// });
 function reset() {
     location.reload();
 }

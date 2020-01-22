@@ -4,9 +4,55 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" type="text/css" href="css/app.css">
+        <script>
+                // function onDeviceReady() {
+                // // document.removeEventListener('deviceready', onDeviceReady, false);
+
+                //         // Set AdMobAds options:
+                //         admob.setOptions({
+                //                 // publisherId:          "ca-app-pub-0414581196544248~8128177355"  // Required
+                //                 publisherId:          "ca-app-pub-3940256099942544/6300978111",  // Test Ads
+                //                 adSize:               admob.AD_SIZE.SMART_BANNER,
+                //                 bannerAtTop:          true,
+                //                 overlap:              true,
+                //                 offsetStatusBar:      true,
+                //                 isTesting:            true,
+                //                 adExtras :            {},
+                //                 autoShowBanner:       true
+                //         });
+                //         }
+
+                // function createBannerView () {
+                //         admob.createBannerView({
+                //                 publisherId:          "ca-app-pub-3940256099942544/6300978111"
+                //         });
+                // }
+
+                // document.addEventListener("deviceready", onDeviceReady, false);
+                // createBannerView();
+
+                document.addEventListener('deviceready', onDeviceReady, false);
+
+                function onDeviceReady() {
+                document.removeEventListener('deviceready', onDeviceReady, false);
+
+                // Set AdMobAds options:
+                admob.setOptions({
+                        publisherId:          "ca-app-pub-3940256099942544/6300978111",
+                        autoShowBanner: true
+                });
+
+                // Start showing banners (atomatic when autoShowBanner is set to true)
+                admob.createBannerView();
+
+                // Request interstitial (will present automatically when autoShowInterstitial is set to true)
+                // admob.requestIntertitial();
+                }
+        </script>
     </head>
     
     <body>
+            <button onclick="createBannerView()">BannerAds</button>
         <div id="main">
             <div class="title--banner">Kids Language App</div>
 
