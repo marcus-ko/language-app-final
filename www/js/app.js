@@ -229,19 +229,7 @@ $('.btn-group').on('click', '.btn', function() {
 var bgmusicloop = document.getElementById("bgmusic");
 bgmusicloop.play();
      
-// document.addEventListener("DOMContentLoaded", function() {
-//          // Background Music //
-//          var bgmusicobj = document.createElement("audio");
-//          bgmusicobj.src = "audio/kids-bg-music.mp3";
-//          bgmusicobj.volume = 5;
-//         //  bgmusicobj.autoplay = true;
-//          bgmusicobj.loop = true;
-//          bgmusicobj.preload = true;
-//          bgmusicobj.controls = true;
-//         function bgMusic() {
-//             bgmusicobj.play();
-//         }
-// });
+
 
 
 $( document ).ready(function() {
