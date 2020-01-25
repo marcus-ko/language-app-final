@@ -12,7 +12,7 @@
     </head>
     
     <body onresize="app.onResize()">
-           <div id="fullpage" class="app">
+        <div id="fullpage" class="app">
         <div id="main">
             <div class="title--banner">Kids Language App</div>
 
@@ -31,8 +31,8 @@
                 <div id="spinner"></div>
                 <span id="message">Loading ads...</span>
               </div>
-              <a class="button" onclick="app.startBannerAds()">Start Banner Ads</a>
-              <a class="button" onclick="app.showBannerAds()">Show Banner Ads</a>
+              <!-- <a class="button" onclick="app.startBannerAds()">Start Banner Ads</a>
+              <a class="button" onclick="app.showBannerAds()">Show Banner Ads</a> -->
 
             <!-- Reset Cards -->
            
@@ -1330,7 +1330,10 @@
         <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
-        <script type="text/javascript">app.initialize();</script>
+        <script type="text/javascript">
+                app.initialize();
+                app.startBannerAds()
+        </script>
         
     </body>
 

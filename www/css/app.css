@@ -8,7 +8,7 @@ html, body {
     margin:0;
     padding:0;
     overflow:hidden;
-    background-color:white;
+    background-color: #ececec;
   }
 
 #fullpage {
@@ -197,7 +197,7 @@ img {
    height: 80%;
    border: none;
    /* border-bottom: 26px solid white; */
-   margin-top: 32px;
+   margin-top: 0;
 }
 
 
@@ -423,6 +423,7 @@ img {
     /* border: 1px solid black;
     border-radius: 10px; */
     transform: rotateY(180deg);
+    background-color: #fff;
 }
 .card__face.card__face--back img#img-2 {
     width: 81px;
@@ -433,6 +434,8 @@ img {
 
 #content-buttons {
     width: 100%;
+    height: 130px;
+    background-color: #ececec;
 }
 #content-1 {
     /* padding: 20px; */
