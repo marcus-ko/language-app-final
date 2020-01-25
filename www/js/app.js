@@ -226,6 +226,23 @@ $('.btn-group').on('click', '.btn', function() {
     $(this).addClass('active').removeClass('notactive').siblings().removeClass('active').addClass('notactive');
 });
 
+var bgmusicloop = document.getElementById("bgmusic");
+bgmusicloop.play();
+     
+// document.addEventListener("DOMContentLoaded", function() {
+//          // Background Music //
+//          var bgmusicobj = document.createElement("audio");
+//          bgmusicobj.src = "audio/kids-bg-music.mp3";
+//          bgmusicobj.volume = 5;
+//         //  bgmusicobj.autoplay = true;
+//          bgmusicobj.loop = true;
+//          bgmusicobj.preload = true;
+//          bgmusicobj.controls = true;
+//         function bgMusic() {
+//             bgmusicobj.play();
+//         }
+// });
+
 
 $( document ).ready(function() {
 
@@ -245,10 +262,10 @@ $( document ).ready(function() {
     //     }
     // });
 
-    
+
 
    
-
+    
     // LETTER A AUDIO BEGIN //
     var obj = document.createElement("audio");
     obj.src = "audio/a-audio-1.mp3";
