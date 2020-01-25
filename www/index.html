@@ -1,30 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html id="viewport" lang="en-us">
     <head>
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" type="text/css" href="css/app.css">
-        <!-- <script>
-                document.addEventListener('deviceready', onDeviceReady, false);
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Language App</title>
 
-                function onDeviceReady() {
-                document.removeEventListener('deviceready', onDeviceReady, false);
-
-                // Set AdMobAds options:
-                admob.setOptions({
-                        publisherId:          "ca-app-pub-3940256099942544/6300978111",
-                        autoShowBanner: true,
-                        bannerAtTop: true
-                });
-
-                // Start showing banners (atomatic when autoShowBanner is set to true)
-                admob.createBannerView();
-                }
-        </script> -->
     </head>
     
-    <body>
-           
+    <body onresize="app.onResize()">
+           <div id="fullpage" class="app">
         <div id="main">
             <div class="title--banner">Kids Language App</div>
 
@@ -38,10 +25,16 @@
                     </span>
                   </label>
             </section> -->
+            <!-- ADS SECTION -->
+            <div id="progressDialog" class="progressDialog hidden">
+                <div id="spinner"></div>
+                <span id="message">Loading ads...</span>
+              </div>
+              <a class="button" onclick="app.startBannerAds()">Start Banner Ads</a>
+              <a class="button" onclick="app.showBannerAds()">Show Banner Ads</a>
 
             <!-- Reset Cards -->
-            <a class="button" onclick="app.startBannerAds()">Start Banner Ads</a>
-            <a class="button" onclick="app.showBannerAds()">Show Banner Ads</a>
+           
             <section id="content-buttons">
                       
                         <div class="flex-container .btn--group">
@@ -1331,6 +1324,7 @@
                     <div class="left--side-buttons">으</div>
                     <div class="left--side-buttons">이</div> -->
              <!-- </section> -->
+        </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="cordova.js"></script>
