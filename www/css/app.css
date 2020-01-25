@@ -2,6 +2,19 @@ body {
     height: 100%;
 }
 
+button {
+    font-size: 14px;
+}
+
+a.button {
+    display: block;
+    padding: 10px 10px;
+    background: #4479BA;
+    color: #fff;
+    margin: 10px;
+    line-height: 20px;
+}
+
 #english-language,
 #korean-language {
     /* margin-top: -90px; */
