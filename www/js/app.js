@@ -1,3 +1,5 @@
+alert("inside app.js");
+
 var krview = document.getElementById("korean-language");
 var enview = document.getElementById("english-language");
 
